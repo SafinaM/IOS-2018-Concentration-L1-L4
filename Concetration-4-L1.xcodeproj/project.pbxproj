@@ -12,6 +12,8 @@
 		2B3978D7208D1A1F007FC266 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B3978D5208D1A1F007FC266 /* Main.storyboard */; };
 		2B3978D9208D1A1F007FC266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B3978D8208D1A1F007FC266 /* Assets.xcassets */; };
 		2B3978DC208D1A1F007FC266 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B3978DA208D1A1F007FC266 /* LaunchScreen.storyboard */; };
+		2B4E1AAD21A025A200C86D18 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4E1AAC21A025A200C86D18 /* Concentration.swift */; };
+		2B4E1AAF21A026A700C86D18 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4E1AAE21A026A700C86D18 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		2B3978D8208D1A1F007FC266 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B3978DB208D1A1F007FC266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B3978DD208D1A1F007FC266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B4E1AAC21A025A200C86D18 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		2B4E1AAE21A026A700C86D18 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				2B3978D3208D1A1F007FC266 /* ViewController.swift */,
+				2B4E1AAC21A025A200C86D18 /* Concentration.swift */,
+				2B4E1AAE21A026A700C86D18 /* Card.swift */,
 				2B3978D5208D1A1F007FC266 /* Main.storyboard */,
 				2B3978DD208D1A1F007FC266 /* Info.plist */,
 				2B3978E3208D1BEB007FC266 /* SupportingFiles */,
@@ -145,7 +151,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B3978D4208D1A1F007FC266 /* ViewController.swift in Sources */,
+				2B4E1AAD21A025A200C86D18 /* Concentration.swift in Sources */,
 				2B3978D2208D1A1F007FC266 /* AppDelegate.swift in Sources */,
+				2B4E1AAF21A026A700C86D18 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
